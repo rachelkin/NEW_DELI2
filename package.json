@@ -1,0 +1,33 @@
+{
+  "name": "keyboard-app",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "server": "json-server --watch db.json --port 3000",
+    "start-all": "concurrently \"npm run dev\" \"npm run server\""
+  },
+  "dependencies": {
+    "@types/react-router-dom": "^5.3.3",
+    "axios": "^1.13.2",
+    "bootstrap": "^5.3.8",
+    "formik": "^2.4.9",
+    "generate-cli": "^3.0.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^7.13.0",
+    "react-spinners": "^0.17.0",
+    "sass": "^1.93.3",
+    "yup": "^1.7.1"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.2",
+    "@types/react-dom": "^19.2.2",
+    "@vitejs/plugin-react": "^4.2.0",
+    "concurrently": "^9.2.1",
+    "json-server": "^1.0.0-beta.3",
+    "typescript": "^5.3.3",
+    "vite": "^5.4.8"
+  }
+}
