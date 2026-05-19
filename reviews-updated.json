@@ -1,0 +1,202 @@
+[
+  {
+    "id": "1",
+    "userId": "1",
+    "userName": "דוד לוי",
+    "userEmail": "david.levi@mail.com",
+    "productId": 1,
+    "productName": "נקניקייה",
+    "rating": 5,
+    "comment": "נקניקייה מעולה! טעימה ועסיסית"
+  },
+  {
+    "id": "2",
+    "userId": "2",
+    "userName": "שרה כהן",
+    "userEmail": "sara.cohen@mail.com",
+    "productId": 2,
+    "productName": "צ'יפס",
+    "rating": 5,
+    "comment": "פריך וחם, מעולה"
+  },
+  {
+    "id": "3",
+    "userId": "3",
+    "userName": "משה ביטון",
+    "userEmail": "moshe.biton@mail.com",
+    "productId": 17,
+    "productName": "צ'יקן טריאקי",
+    "rating": 5,
+    "comment": "אחד הסנדוויצ'ים הטובים שאכלתי"
+  },
+  {
+    "id": "4",
+    "userId": "4",
+    "userName": "רחל פרץ",
+    "userEmail": "rachel.peretz@mail.com",
+    "productId": 19,
+    "productName": "שניצל קריספי",
+    "rating": 4,
+    "comment": "קריספי וטעים, לחמנייה רכה"
+  },
+  {
+    "id": "5",
+    "userId": "1",
+    "userName": "דוד לוי",
+    "userEmail": "david.levi@mail.com",
+    "productId": 12,
+    "productName": "סלט חזה עוף במרינדה",
+    "rating": 5,
+    "comment": "טרי, טעים ומשביע מאוד"
+  },
+  {
+    "id": "6",
+    "userId": "2",
+    "userName": "שרה כהן",
+    "userEmail": "sara.cohen@mail.com",
+    "productId": 13,
+    "productName": "סלט עוף בטריאקי",
+    "rating": 4,
+    "comment": "רוטב מצוין, הייתי מוסיפה עוד ירקות"
+  },
+  {
+    "id": "7",
+    "userId": "7",
+    "userName": "דניאל כץ",
+    "userEmail": "daniel.katz@mail.com",
+    "productId": 22,
+    "productName": "קבב של בית",
+    "rating": 5,
+    "comment": "מרגיש ביתי וטעים"
+  },
+  {
+    "id": "8",
+    "userId": "8",
+    "userName": "נעמה ברק",
+    "userEmail": "naama.barak@mail.com",
+    "productId": 25,
+    "productName": "שווארמה פרגית",
+    "rating": 4,
+    "comment": "מנה גדולה ומשביעה"
+  },
+  {
+    "id": "9",
+    "userId": "9",
+    "userName": "אבי שושן",
+    "userEmail": "avi.shoshan@mail.com",
+    "productId": 28,
+    "productName": "שווארמה טבעונית",
+    "rating": 5,
+    "comment": "מפתיע מאוד לטובה"
+  },
+  {
+    "id": "10",
+    "userId": "10",
+    "userName": "תמר רוזן",
+    "userEmail": "tamar.rozen@mail.com",
+    "productId": 10,
+    "productName": "פסטה בולונז",
+    "rating": 4,
+    "comment": "רוטב עשיר וטעים"
+  },
+  {
+    "id": "11",
+    "userId": "1",
+    "userName": "דוד לוי",
+    "userEmail": "david.levi@mail.com",
+    "productId": 5,
+    "productName": "כנפיים",
+    "rating": 5,
+    "comment": "כנפיים מתובלות מצוין, חוזר על זה"
+  },
+  {
+    "id": "12",
+    "userId": "3",
+    "userName": "משה ביטון",
+    "userEmail": "moshe.biton@mail.com",
+    "productId": 3,
+    "productName": "טבעות בצל",
+    "rating": 5,
+    "comment": "פריכות ומושלמות"
+  },
+  {
+    "id": "13",
+    "userId": "9bad",
+    "userName": "רחל קינסבורסקי",
+    "userEmail": "rachel67960@gmail.com",
+    "productId": 18,
+    "productName": "חזה עוף במרינדה",
+    "rating": 5,
+    "comment": "עסיסי ומלא טעם, ממליצה בחום"
+  },
+  {
+    "id": "14",
+    "userId": "ed43",
+    "userName": "רעות כהן",
+    "userEmail": "reutcohen@gmail.com",
+    "productId": 14,
+    "productName": "סלט שניצל",
+    "rating": 4,
+    "comment": "טעים ומאוזן"
+  },
+  {
+    "id": "15",
+    "userId": "c8e2",
+    "userName": "פאר טסי",
+    "userEmail": "PEERTASI@GMAIL.COM",
+    "productId": 26,
+    "productName": "בורגר אנטריקוט",
+    "rating": 5,
+    "comment": "המבורגר הכי טעים שאכלתי!"
+  },
+  {
+    "id": "16",
+    "userId": "806d",
+    "userName": "רותם סלע",
+    "userEmail": "ROTEMSELA@GMAIL.COM",
+    "productId": 24,
+    "productName": "שווארמה עגל",
+    "rating": 5,
+    "comment": "עסיסי וטעים"
+  },
+  {
+    "id": "17",
+    "userId": "1",
+    "userName": "דוד לוי",
+    "userEmail": "david.levi@mail.com",
+    "productId": 20,
+    "productName": "סלופי ג'ו",
+    "rating": 5,
+    "comment": "אמריקאי אמיתי, מעולה"
+  },
+  {
+    "id": "18",
+    "userId": "2",
+    "userName": "שרה כהן",
+    "userEmail": "sara.cohen@mail.com",
+    "productId": 7,
+    "productName": "נקניק בלחמניה",
+    "rating": 4,
+    "comment": "טעים ומהיר"
+  },
+  {
+    "id": "19",
+    "userId": "9bad",
+    "userName": "רחל קינסבורסקי",
+    "userEmail": "rachel67960@gmail.com",
+    "productId": 11,
+    "productName": "פאי רואים",
+    "rating": 5,
+    "comment": "פאי מדהים! חובה לנסות"
+  },
+  {
+    "id": "20",
+    "userId": "ed43",
+    "userName": "רעות כהן",
+    "userEmail": "reutcohen@gmail.com",
+    "productId": 15,
+    "productName": "סלט שווארמה טבעונית",
+    "rating": 5,
+    "comment": "טבעוני ומעולה"
+  }
+]

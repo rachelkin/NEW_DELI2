@@ -1,0 +1,131 @@
+.chatbot-wrapper {
+  position: fixed;
+  bottom: 30px;
+  left: 30px;
+  z-index: 9999;
+  direction: rtl;
+}
+
+.chat-toggle-btn {
+  background: linear-gradient(135deg, #4CAF50, #66BB6A);
+  color: white;
+  border: none;
+  padding: 16px 24px;
+  border-radius: 50px;
+  font-size: 1.1rem;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: 0 6px 20px rgba(76, 175, 80, 0.5);
+  transition: all 0.3s ease;
+}
+
+.chat-toggle-btn:hover {
+  background: linear-gradient(135deg, #FDD835, #FFC107);
+  color: #1B5E20;
+  transform: translateY(-3px);
+  box-shadow: 0 10px 25px rgba(253, 216, 53, 0.5);
+}
+
+.chat-window {
+  width: 340px;
+  height: 450px;
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  border: 2px solid #4CAF50;
+}
+
+.chat-header {
+  background: linear-gradient(135deg, #2E7D32, #4CAF50);
+  color: white;
+  padding: 16px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+.close-btn {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1.5rem;
+  cursor: pointer;
+  line-height: 1;
+  padding: 0 4px;
+}
+
+.close-btn:hover {
+  color: #FDD835;
+}
+
+.messages-box {
+  flex: 1;
+  overflow-y: auto;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.msg-bot {
+  background: #f1f8e9;
+  color: #1B5E20;
+  padding: 10px 14px;
+  border-radius: 12px 12px 12px 0;
+  font-size: 0.95rem;
+  align-self: flex-start;
+  max-width: 80%;
+  border: 1px solid #c8e6c9;
+}
+
+.msg-user {
+  background: linear-gradient(135deg, #4CAF50, #66BB6A);
+  color: white;
+  padding: 10px 14px;
+  border-radius: 12px 12px 0 12px;
+  font-size: 0.95rem;
+  align-self: flex-end;
+  max-width: 80%;
+}
+
+.input-area {
+  display: flex;
+  padding: 12px;
+  gap: 8px;
+  border-top: 2px solid #e8f5e9;
+}
+
+.input-area input {
+  flex: 1;
+  padding: 10px 14px;
+  border: 2px solid #c8e6c9;
+  border-radius: 50px;
+  font-size: 0.95rem;
+  outline: none;
+  direction: rtl;
+}
+
+.input-area input:focus {
+  border-color: #4CAF50;
+}
+
+.input-area button {
+  background: linear-gradient(135deg, #4CAF50, #66BB6A);
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 50px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.input-area button:hover {
+  background: linear-gradient(135deg, #FDD835, #FFC107);
+  color: #1B5E20;
+}
