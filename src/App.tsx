@@ -10,10 +10,7 @@ import UserList from './components/UserList/UserList';
 import ProductList from './components/ProductList/ProductList';
 import AddUser from './components/AddUser/AddUser';
 import ErrorPage from './components/ErrorPage/ErrorPage';
-<<<<<<< HEAD
 import ChatBot from './components/Chatbox/Chatbox';
-=======
->>>>>>> 0cebb34aeb0872d7b6e51b933e25b34f855a8cb4
 import './App.css';
 import AddProduct from './components/AddProductPage/AddProduct';
 
@@ -43,10 +40,7 @@ const App = () => {
 
         <Route path="*" element={<ErrorPage />} />
       </Routes>
-<<<<<<< HEAD
       <ChatBot />
-=======
->>>>>>> 0cebb34aeb0872d7b6e51b933e25b34f855a8cb4
     </Router>
   );
 };
