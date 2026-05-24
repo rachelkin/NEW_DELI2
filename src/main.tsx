@@ -9,8 +9,5 @@ createRoot(document.getElementById('root')!).render(
     <App />
   </StrictMode>
 );
-<<<<<<< HEAD
 //הרצה של בשרת npx json-server db.json
 //הרצה של הלקוח npm start
-=======
->>>>>>> 0cebb34aeb0872d7b6e51b933e25b34f855a8cb4
