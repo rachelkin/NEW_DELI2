@@ -67,7 +67,7 @@ const AddProductPage: FC = () => {
 
     setLoading(true);
     try {
-      await axios.post('http://localhost:3000/products', {
+      await axios.post('/products', {
         ...formData,
         price: Number(formData.price),
         id: Date.now()

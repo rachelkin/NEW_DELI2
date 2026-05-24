@@ -38,7 +38,7 @@ const ProductList: FC = () => {
   useEffect(() => {
     const fetchProducts = async () => {
       try {
-        const res = await axios.get<Product[]>('http://localhost:3000/products');
+        const res = await axios.get<Product[]>('/products');
         setProducts(res.data);
       } catch (e) {
         setError('שגיאה בטעינת המוצרים');
@@ -67,7 +67,7 @@ const deleteProduct = async (id: string) => {
   setMessage('');
   
   try {
-    await axios.delete(`http://localhost:3000/products/${id}`);
+    await axios.delete(`/products/${id}`);
     setProducts(prev => prev.filter(p => p.id !== id));
     setMessage('המוצר נמחק בהצלחה');
     setMessageType('success');

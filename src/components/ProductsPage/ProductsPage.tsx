@@ -28,7 +28,7 @@ const ProductsPage: FC<ProductsPageProps> = () => {
   const searchByCategory = async () => {
     if (!selectedCategory) return;
     try {
-      const response = await axios.get(`http://localhost:3000/products?category=${selectedCategory}`);
+      const response = await axios.get(`/products?category=${selectedCategory}`);
       setProducts(response.data);
     } catch (error) {
       console.error('שגיאה בחיפוש לפי קטגוריה:', error);
@@ -38,7 +38,7 @@ const ProductsPage: FC<ProductsPageProps> = () => {
   const searchByName = async () => {
     if (!searchName.trim()) return;
     try {
-      const response = await axios.get('http://localhost:3000/products');
+      const response = await axios.get('/products');
       const filtered = response.data.filter((product: Product) => 
         product.name.toLowerCase().includes(searchName.toLowerCase())
       );
@@ -50,7 +50,7 @@ const ProductsPage: FC<ProductsPageProps> = () => {
 
   const searchByPrice = async () => {
     try {
-      let url = 'http://localhost:3000/products?';
+      let url = '/products?';
       if (minPrice) url += `price_gte=${minPrice}&`;
       if (maxPrice) url += `price_lte=${maxPrice}`;
       const response = await axios.get(url);
@@ -70,7 +70,7 @@ const ProductsPage: FC<ProductsPageProps> = () => {
 
   const fetchProducts = async () => {
     try {
-      const response = await axios.get('http://localhost:3000/products');
+      const response = await axios.get('/products');
       setProducts(response.data);
     } catch (error) {
       console.error('שגיאה בטעינת מוצרים:', error);

@@ -23,7 +23,7 @@ const ProfilePage: FC<ProfilePageProps> = () => {
 
     const fetchUserData = async () => {
       try {
-        const response = await axios.get(`http://localhost:3000/users/${currentUser.userId}`);
+        const response = await axios.get(`/users/${currentUser.userId}`);
         const user = response.data;
         setUserId(user.id);
         setFullName(user.fullName || '');
@@ -42,7 +42,7 @@ const ProfilePage: FC<ProfilePageProps> = () => {
     e.preventDefault();
 
     try {
-      await axios.patch(`http://localhost:3000/users/${userId}`, {
+      await axios.patch(`/users/${userId}`, {
         fullName,
         email,
         idNumber,

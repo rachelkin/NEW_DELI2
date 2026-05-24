@@ -19,9 +19,23 @@ html, body {
  
 
 #root {
+<<<<<<< HEAD
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
   background-color: #ffffff;
+=======
+
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+
+  min-height: 100vh;
+
+  background-color: #111;
+
+>>>>>>> 0cebb34aeb0872d7b6e51b933e25b34f855a8cb4
 }

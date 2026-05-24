@@ -22,7 +22,7 @@ const UserList: FC<UserListProps> = () => {
   useEffect(() => {
     const fetchUsers = async () => {
       try {
-        const response = await axios.get('http://localhost:3000/users');
+        const response = await axios.get('/users');
         console.log('Users loaded:', response.data);
         setUsers(response.data);
         setLoading(false);

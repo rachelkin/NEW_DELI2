@@ -55,7 +55,7 @@ const AddUser: FC<AddUserProps> = ({ onBackToLogin }) => {
         password: values.password,
       };
       
-      const response = await axios.post('http://localhost:3000/users', userData);
+      const response = await axios.post('/users', userData);
       
       if (response.status === 201) {
         console.log('רישום הושלם בהצלחה:', response.data);

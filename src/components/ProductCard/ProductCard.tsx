@@ -46,7 +46,7 @@ const ProductCard: FC = () => {
   useEffect(() => {
     const fetchProduct = async () => {
       try {
-        const response = await axios.get(`http://localhost:3000/products/${id}`);
+        const response = await axios.get(`/products/${id}`);
         setProduct(response.data);
         setLoading(false);
       } catch (error) {
@@ -57,7 +57,7 @@ const ProductCard: FC = () => {
 
     const fetchReviews = async () => {
       try {
-        const response = await axios.get(`http://localhost:3000/reviews?productId=${id}`);
+        const response = await axios.get(`/reviews?productId=${id}`);
         setReviews(response.data);
       } catch (error) {
         console.error('שגיאה בטעינת חוות דעת:', error);
@@ -76,7 +76,7 @@ const ProductCard: FC = () => {
 
     try {
       const newCount = (product?.purchaseCount || 0) + 1;
-      await axios.patch(`http://localhost:3000/products/${id}`, {
+      await axios.patch(`/products/${id}`, {
         purchaseCount: newCount
       });
       setProduct(prev => prev ? { ...prev, purchaseCount: newCount } : null);
@@ -104,7 +104,7 @@ const ProductCard: FC = () => {
         comment: newReview
       };
 
-      const response = await axios.post('http://localhost:3000/reviews', review);
+      const response = await axios.post('/reviews', review);
       setReviews([...reviews, response.data]);
       setNewReview('');
       setShowAddReview(false);
@@ -115,7 +115,7 @@ const ProductCard: FC = () => {
 
   const handleDeleteReview = async (reviewId: string) => {
     try {
-      await axios.delete(`http://localhost:3000/reviews/${reviewId}`);
+      await axios.delete(`/reviews/${reviewId}`);
       setReviews(reviews.filter(r => r.id !== reviewId));
     } catch (error) {
       console.error('שגיאה במחיקת חוות דעת:', error);
